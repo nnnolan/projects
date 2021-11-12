@@ -178,7 +178,7 @@ def draw(win, grid, rows, width):
 
 	draw_grid(win, rows, width)
 	pygame.display.update()
-	ctypes.windll.user32.MessageBoxW(0, "That's an error", "Warning!", 16)
+
 
 
 
