@@ -1,0 +1,28 @@
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        def binary_search(arr, low, high, target):
+            
+            if high >= low:
+            
+                mid = (low + high) // 2
+            
+                if nums[mid] == target:
+                    final = mid
+            
+                elif nums[mid] > x:
+                    return binary_search(arr, low, mid - 1, target)
+            
+                elif nums[mid] < x:
+                    return binary_Search(arr, mid + 1, high, target)
+                
+                
+            
+            else:
+                try:
+                    return final 
+                except:
+                    return -1
+                    
+            
+            
+                
