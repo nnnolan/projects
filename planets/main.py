@@ -1,5 +1,7 @@
+from turtle import circle
 import pygame
 import math
+import time
 
 pygame.init()
 
@@ -25,3 +27,6 @@ def main():
         pygame.quit() # quits the game when user presses x
 
 main()
+
+year = time.year
+mercury_time = year * 2
