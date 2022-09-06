@@ -3,6 +3,8 @@ import ctypes
 import math
 from queue import PriorityQueue
 
+#this is a comment
+
 
 WIDTH = 800
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
